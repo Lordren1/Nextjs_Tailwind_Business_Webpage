@@ -19,7 +19,7 @@ export default function Sidebar({ isOpenSidebar, setIsOpenSidebar }: SidebarProp
     >
       {/* Header */}
       <div className="text-white flex justify-between items-center w-full">
-        <Logo />
+        <Logo sticky={false} />
         <div
           className="close-btn group bg-white rounded-sm text-prim p-2 cursor-pointer"
           onClick={() => setIsOpenSidebar(false)}

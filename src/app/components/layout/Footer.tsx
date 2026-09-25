@@ -105,7 +105,7 @@ export default function Footer() {
             {/* First Column Logo + Awards */}
             <div className="lg:col-span-3">
               <div className="text-black pb-5">
-                <Logo />
+                <Logo sticky={false} />
               </div>
               <p className="text-[14px] leading-6 text-foottext">
                 We combine innovation, expertise, and technology to create practical
