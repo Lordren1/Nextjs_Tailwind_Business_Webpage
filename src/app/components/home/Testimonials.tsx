@@ -18,7 +18,12 @@ export default function Testimonials() {
     <>
       <section className="overflow-hidden py-14 lg:py-18 xl:py-22 bg-prim-light">
         <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
-          <div className="relative testimonials-item w-full flex flex-col lg:flex-row h-auto lg:h-[550px] gap-5">
+          <div 
+            data-aos="fade-up" 
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="100" 
+            className="relative testimonials-item w-full flex flex-col lg:flex-row h-auto lg:h-[550px] gap-5"
+          >
 
             <div className="testimonial-image w-full lg:w-1/2 h-[400px] lg:h-full rounded-2xl overflow-hidden relative">
                <Image

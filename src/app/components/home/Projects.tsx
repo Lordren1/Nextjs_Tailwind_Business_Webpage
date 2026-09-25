@@ -49,7 +49,10 @@ export default function Projects() {
         >
           {projects.concat(projects).map((project, index) => (
             <SwiperSlide key={`${project.id}-${index}`}>
-              <div 
+              <div
+                data-aos="fade-left" 
+                data-aos-anchor-placement="top-center"
+                data-aos-delay={`${index * 100}`} 
                 className="project-item flex flex-col lg:flex-col lg:flex-row items-center w-full bg-white
                 shadow-xl p-5 lg:p-8 rounded-2xl gap-8 h-auto lg:h-[550px]"  
               >

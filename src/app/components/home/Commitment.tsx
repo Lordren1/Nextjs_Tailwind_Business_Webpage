@@ -92,9 +92,12 @@ export default function Commitment() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-col-3 gap-8">
-            {whyChooseUs.map((item) => (
+            {whyChooseUs.map((item, index) => (
               <div
                 key={item.id}
+                data-aos="fade-up" 
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay={`${index * 100}`}
                 className="bg-white rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-2xl transition duration-500 group"
               >
                 <div className="w-[80px] h-[80px] rounded-full bg-prim/10 flex items-center justify-center mb-6 group-hover:bg-prim transition-colors duration-500">

@@ -30,7 +30,7 @@ export default function Hero() {
           className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) z-20 relative 
             text-white px-4 h-full flex flex-col justify-center items-start"
           >
-            <div className="hero-content text-white">
+            <div data-aos="fade-up" className="hero-content text-white">
               <h2 className="md:text-60 sm:text-40 text-28 text-white mb-9 lg:mb-3 w-full lg:w-3/4">
                 Turning Vision into Impact
               </h2>

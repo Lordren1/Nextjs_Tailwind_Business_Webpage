@@ -58,7 +58,11 @@ export default function Solution() {
             >
               {solutionData.map((solution, index) => (
                 <SwiperSlide key={index}>
-                  <div className="solution-item w-full bg-white shadow-xl p-5 space-y-6 rounded-xl border group hover:bg-prim transition duration-500 h-[400px] flex flex-col justify-between">
+                  <div 
+                    data-aos="fade-right" 
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay={`${index * 100}`}
+                    className="solution-item w-full bg-white shadow-xl p-5 space-y-6 rounded-xl border group hover:bg-prim transition duration-500 h-[400px] flex flex-col justify-between">
                     <h4 className="group-hover:text-white transition-colors duration-500 font-medium font-unbounded text-18">
                       {solution.title}
                     </h4>

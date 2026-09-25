@@ -56,6 +56,9 @@ export default function Companies() {
                 key={index}
               >
                 <div
+                  data-aos="fade-left" 
+                  data-aos-anchor-placement="top-center"
+                  data-aos-delay={`${index * 100}`}
                   className="companies-item h-[100px] w-full bg-white shadow-xl px-8 rounded-xl flex items-center justify-center cursor-pointer"
                 >
                   <Image 
